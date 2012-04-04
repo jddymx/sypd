@@ -1,0 +1,23 @@
+---
+layout: post
+title: Equipment Manager Fun
+thumbnail: http://farm4.static.flickr.com/3334/3556511931_027bcbb7e8_t.jpg
+thumbnail_alt: EquipSetUpdater
+---
+
+As I'm sure you're aware, patch 3.1.2 finally brought us the equipment manager.  I love it in all it's simplicity, but I've found that it's lacking in two little areas... it doesn't link to the dual-spec system, and it's only about 4 friggin clicks to update an existing set.  As I am unable to overlook design flaws like this, I've written "Crossdresser":cd and "EquipSetUpdater":esu.
+
+h2{clear:both}. Crossdresser
+
+!{float:right}http://farm4.static.flickr.com/3386/3556513919_51f1c8b47e_o.png(Crossdresser)! First up we have "Crossdresser":cd.  This addon will automatically switch to a chosen equipment set when you switch talents.  There's a minimal config panel in the addon config UI, as well as two little "CD" buttons on the equipment manager and talent UI panels for fast access.
+
+Oh and as a little bonus, if you hover over the titles in the config panel you'll be shown that spec's details.
+
+h2{clear:both}. EquipSetUpdater
+
+!{float:right}http://farm4.static.flickr.com/3334/3556511931_027bcbb7e8_m.jpg(EquipSetUpdater)! Next we've got "EquipSetUpdater":esu.  This addon simply adds an "Update" button to the equipment manager.  Pick a set, change the items in it, and click.  You don't have to dig through the icon list, nor will you have to click past that annoying "do you want to overwrite" dialog.
+
+Note that there appears to be a bug with "Ignore This Slot" not being loaded by the manager, so you will need to set this each time you update if your set ignores slots.
+
+[cd]http://www.wowinterface.com/downloads/info13577-Crossdresser.html
+[esu]http://www.wowinterface.com/downloads/info13578-EquipSetUpdater.html

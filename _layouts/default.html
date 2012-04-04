@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title> {{ page.title }} </title>
+
+  <link rel="shortcut icon" href="/images/paw.ico">
+  <link rel="icon" type="image/x-icon" href="/images/paw.ico" />
+
+  <link rel="alternate" type="application/atom+xml" title="Atom feed" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/main.css?{{ site.time | date: "%Y%m%d%H%M%S" }}" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Trade+Winds" />
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/tempo.min.js"></script>
+  <script type="text/javascript" src="/js/wowi.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+<div class="content">
+  <header>
+    <h1>Tekkub's Emporium of Random Crap</h1>
+    <h2>World of Warcraft addons and various ramblings of a furry bastard</h2>
+  </header>
+
+  <nav>
+    <ul class="links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/addons.html">Addons</a></li>
+      <li><a href="https://github.com/tekkub">GitHub</a></li>
+      <li><a href="https://twitter.com/tekkub">Twits</a></li>
+    </ul>
+  </nav>
+
+  <article class="{{ page.article-class }}">
+    {{ content }}
+  </article>
+</div>
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4ef6ebee613f5d597c000001');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+</body>
+</html>

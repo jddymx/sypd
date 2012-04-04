@@ -1,0 +1,165 @@
+/*
+http://www.colourlovers.com/palette/878372/a_hundred_of_%E2%99%A5
+E9DFCC
+F3A36B
+CD5B51
+554865
+352630
+*/
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+  background: #E9DFCC;
+  color: #352630;
+  margin: 0;
+  height: 100%;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #618BA7;
+}
+
+header {
+  font-family: "Trade Winds";
+  padding-left: 10px;
+}
+
+header h1 {
+  font-size: 34px;
+  margin: 10px 0 0 0;
+}
+
+header h2 {
+  font-size: 18px;
+  margin: 5px 0 15px 0;
+  font-weight: normal;
+  color: #554865;
+}
+
+nav {
+  font-family: "Trade Winds", sans-serif;
+  float: left;
+  width: 200px;
+  margin-left: -200px;
+  text-align: right;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav .links {
+  padding-left: 0;
+}
+
+nav .links li {
+  margin-bottom: 12px;
+}
+
+nav .links a {
+  display: inline;
+  padding: 4px 6px 4px 10px;
+  background: #554865;
+  color: #E9DFCC;
+  text-decoration: none;
+}
+
+nav .links a:hover {
+  background: #CD5B51;
+}
+
+article {
+  background: #f9f9f9;
+  padding: 1px 10px;
+  margin-bottom: 35px;
+  min-height: 250px;
+}
+
+article h1, article h2, article h3, article h4 {
+  font-family: 'Yanone Kaffeesatz', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+article h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+article h2 {
+  font-size: 32px;
+  border-bottom: 2px solid #E9DFCC;
+  margin-bottom: 0;
+}
+
+.index {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.index li {
+  list-style-type: none;
+  padding: 6px 0;
+  border-top: 2px solid #E9DFCC;
+}
+
+.index li:first-child {
+  border: none;
+}
+
+.index li span {
+  float: right;
+  color: #666;
+}
+
+article.post {
+  padding-left: 70px;
+  padding-right: 25px;
+}
+
+article.post date {
+  float: left;
+  width: 50px;
+  margin-left: -60px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+article.post date .month {
+  font-size: 20px;
+}
+
+article.post date .day {
+  font-family: georgia;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #CD5B51;
+}
+
+article.post date .year {
+  line-height: 30px;
+  font-weight: 400;
+}
+
+article.post p, article.post li {
+  line-height: 1.7em;
+}
+
+article.post img {
+  max-width: 100%;
+}
+
+.emoji {
+  width: 18px;
+  vertical-align: -3px;
+}

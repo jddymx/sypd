@@ -1,0 +1,22 @@
+---
+layout: post
+title: Horde wrath guides (finally!)
+thumbnail: http://farm4.static.flickr.com/3653/3582633349_24f47094b8_t.jpg
+thumbnail_alt: Horde guides!
+---
+
+After far too long of a wait, I've finally compiled Northrend TourGuide files for horde.  As usual, you can find the download at "WoWInterface":tg.
+
+A big huge thanks is due to "Spugnort's guides":spug.  After the "development policy":pol was laid down by Blizzard, their TourGuide files could no longer be given to paying customers only.  Instead of removing their in-game guides, or simply ignoring the policy like some other guide authors (I won't name names...), they instead donated their guides for the betterment of TourGuide for everyone.
+
+!{float:right}http://farm4.static.flickr.com/3653/3582633349_f20ebca790_o.png(EquipSetUpdater)! I've gone through each guide, merging in ally guide data for the neutral quests and the quests that are similar for both factions.  "TourGuide Recorder":tgr data from users (thanks guys!) has also been merged in, so you should get some nice coords even if you don't run "LightHeaded":lh.
+
+Again, big thanks to everyone that made this possible.  Even though I'm usually not one for paid guides (hell, I wrote TourGuide to undermine the ones that I thought were poor quality, especially for a paid product...), I encourage you guys to hit up "Spugnort's":spug and show them some support for donating their guide data for everyone to use.
+
+Oh, and if any of you hordies out there have the time, I'm still missing a guide for Storm Peaks.  You could use the ally guide as a starter, since 2/3 of the zone are neutral quests.
+
+[tg]http://www.wowinterface.com/downloads/info7674-TourGuide.html
+[tgr]http://www.wowinterface.com/downloads/info10499-TourGuideRecorder.html
+[pol]http://www.wowinterface.com/forums/showthread.php?t=21289
+[lh]http://www.wowinterface.com/downloads/info7017-LightHeaded.html
+[spug]http://www.spugnort.com/

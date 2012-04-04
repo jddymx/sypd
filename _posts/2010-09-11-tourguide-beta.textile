@@ -1,0 +1,6 @@
+---
+layout: post
+title: Betatesters, TourGuide needs you!
+---
+
+Are you in the Cataclysm beta?  Like TourGuide?  Well, I could use your help.  Before you set out questing, download and install "TourGuide Recorder":http://www.wowinterface.com/downloads/fileinfo.php?id=10499 in your beta client.  This addon will record what quests you do, so I can create guides for the new and revamped zones.  I have a little gift for anyone that submits recordings, contact me at "beta@tekkub.net":mailto:beta@tekkub.net for details!

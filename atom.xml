@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="/css/rss.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Tekkub's Emporium of Random Crap</title>
+  <link href="http://tekkub.net/atom.xml" rel="self"/>
+  <link href="http://tekkub.net/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://tekkub.net/</id>
+  <author>
+    <name>Tekkub</name>
+    <email>tekkub@gmail.com</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="http://tekkub.net{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>http://tekkub.net{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+
+</feed>

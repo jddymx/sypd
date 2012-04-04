@@ -1,0 +1,22 @@
+---
+layout: post
+title: Clearing the Air
+---
+
+The past few weeks I have been very quiet regarding the future of TourGuide.  Now that the Zygor deal has been announced, I'd like to set the record straight.
+
+First and foremost, Dugi (ultimatewowguide.com) has never had my permission to modify, sell, or distribute, my addon. Over the past year I have talked to the owner of this site a few times, and he has made a few voluntary donations through TourGuide's pledgie campaign. However, we have never had any formal, legally-binding agreement regarding TourGuide.
+
+Our first contact was back in Jan '09. He asked me if he could sell "tourguide data", specifically citing his own guides which he was translating into another language. He wanted this guide to plug in to TourGuide. I told him his addon is his property, he can do whatever he wants with it. I shamelessly included a link to pledgie, and he made a donation some time later. Around this time he also used my static HTML generator, which was publicly available on GitHub, to convert his guides to HTML. I understood that he would probably sell access to those pages, but as it was generated from his guide data I really didn't pursue the matter.
+
+Three months later, at the start of April '09, I was alerted to the fact that Dugi was distributing a modified version of the TourGuide core on his site. Upon investigation I found that his modifications were simply rebranding the addon as "Dugi's Guide Viewer" and removing my own free guides. I never gave permission for modifications like this, nor was my addon licensed in a manner that would allow it. Seeing as the changes were only cosmetic, any user that installed this viewer and TourGuide on the same system would have run into conflicts. While I was lucky to not have any reports of such issues, the simple potential for such failure upset me greatly.  I pride myself in my addons being stable and efficient.
+
+Naturally, I contacted Dugi and asked him to remove the modified version and link people to the official TourGuide downloads.  Dugi expressed concern over the included guides "confusing" his users and did mention licensing, but I did not pursue the matter. I was not interested in doing business with someone that would rebrand my code without permission, or without even asking.  Simply put, he should have come to me about licensing before he started selling his guide.
+
+Dugi never removed his viewer, even after I asked him.  He now asserts that he had permission to do so from me.  He <b>did not</b>.
+
+Late last year, Zygor approached me about licensing exclusive rights to TourGuide. Unlike most of the other guide sellers out there, Zygor had his own guide addon. This addon was written by a hired developer, instead of using the freely available addons on the market. This simple fact may have biased me toward Zygor, I admit. My initial reaction to his offer was a resounding "hell no". I like for code to be free to share, I feel that others being able to see my code and learn from it, and me being able to learn from other people's code, helps the addon community evolve and become better. However, modifying and selling an addon without permission goes completely counter to this. After much debate I decided to work out a deal with Zygor that would be to both our benefit.
+
+During negotiations I made it clear that my concerns were for my users who had downloaded TourGuide from WoWInterface or Curse. Also I wanted to protect the addon in case the contract were to expire without renewal, so that I could go back to releasing it for free. We were able to reach an agreement that satisfied us both, Zygor got rights to TourGuide while under contract, I got paid for my code, and I will retain rights when the contract ends. Zygor is offering TG up to his users legitimately, and we may work out a deal for me to work on TG while under contract if there is a positive response from his userbase. Zygor has assured me that he holds no ill-will towards my current userbase of free users, and doesn't wish to hinder those players that already have TourGuide installed on their systems.
+
+I know there is a lot of drama and mudslinging that has already begun, and this post may even be construed as part of that. I hope it is not however, I just wanted to set the record straight on what has gone down, my part in the matter, and why I licensed rights to TourGuide to Zygor.

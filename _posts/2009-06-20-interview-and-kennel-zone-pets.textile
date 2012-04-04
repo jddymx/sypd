@@ -1,0 +1,22 @@
+---
+layout: post
+title: Interview & Kennel per-zone pet settings
+thumbnail: http://farm4.static.flickr.com/3390/3645336112_f563957bfc_m.jpg
+thumbnail_alt: Kennel zone pets
+---
+
+This week "NoStockUI":nsui published a "little interview":int with me.  I know I got a little ranty, especially about Wowmatrix, but you're welcome to skip over those parts.  Thanks to Matticus for the change to ramble a bit, I'm happy to support a nice UI-centric blog.
+
+!{float:right; clear:right; max-width:265px; margin-left:15px}http://farm4.static.flickr.com/3382/3644527095_4525201994_o.png(Kennel zone pet config)!
+
+Oh and it's the weekend that means new addon builds...
+
+The highlight this week, "Kennel":kennel now has per-zone pet settings.  This means you can set Kennel to always use the same pet when you are in a zone or subzone.  Want to show off your "White Kitten":kitten when you're in Stormwind, or your "Cockroach":cock in Naxx?  Now you can!
+
+Setting a pet is fairly simple, summon the pet you want, open the config panel, and click "Add zone" or "Add subzone".  A new rule will be added for your current pet in your current zone or subzone.  Subzone rules will always override zone rules.  If no zone or subzone rule is found and a pet is needed, Kennel will fall back to the random pet settings.
+
+[nsui]http://www.nostockui.com/2009/06/14-questions-with-tekkub/
+[int]http://www.nostockui.com/2009/06/14-questions-with-tekkub/
+[kennel]http://www.wowinterface.com/downloads/info4442-Kennel.html
+[kitten]http://www.wowhead.com/?spell=10679
+[cock]http://www.wowhead.com/?spell=10688

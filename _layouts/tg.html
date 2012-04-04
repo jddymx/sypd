@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title> {{ page.title }} </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/images/paw.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/paw.ico" />
+
+		<link href="/tg/extras/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+		<link href="/tg/extras/tourguide.css" media="screen" rel="stylesheet" type="text/css">
+
+		<link href="/tg/extras/print.css" media="print" rel="stylesheet" type="text/css">
+		<link href="/tg/extras/tourguide_print.css" media="print" rel="stylesheet" type="text/css">
+
+		<script src="http://www.wowhead.com/widgets/power.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			{{ content }}
+
+      <div class="sidebar">
+        <div>
+          <p>
+            <a class="float_right" href="http://www.wowinterface.com/downloads/fileinfo.php?id=7674" target="_blank">
+              <img src="/tg/extras/wowinterface.gif" width="88" height="31" border="0" alt="Visit WoWInterface for World of Warcraft Addons!">
+            </a>
+            Download the TourGuide addon for free at <a href="http://www.wowinterface.com/downloads/fileinfo.php?id=7674" target="_blank">WoW Interface</a>
+          </p>
+        </div>
+
+        <!--[if IE]>
+          <div>
+            <p>
+              <a class="float_right" href="http://www.firefox.com/" target="_blank"> <img src="tg/extras/fflogo.png" width="115" height="31" border="0" alt="IE SUCKS!" /> </a>
+              Site look funny on IE? <br> Get a real browser!
+            </p>
+          </div>
+        <![endif]-->
+
+        <div>
+          <p>
+            <a class="float_right" href="http://pledgie.org/campaigns/767" target="_blank"><img src="http://www.pledgie.com/campaigns/767.png?skin_name=chrome"></a>
+            Help feed a poor starving bear cub!
+          </p>
+        </div>
+
+        <div>
+          <p>
+            <a class="float_right" href="http://www.wowhead.com" target="_blank"><img src="http://www.wowhead.com/images/badge_88x31.gif" width="88" height="31" border="0" alt="" /></a>
+            Tooltips and maps powered by Wowhead
+          </p>
+        </div>
+
+        {% if page.is_guide != null %}
+          <div class="alliance">
+            {% include alliance.html %}
+          </div>
+          <div class="horde">
+            {% include horde.html %}
+          </div>
+        {% endif %}
+			</div>
+
+			<div class="print_footer">
+				<p>
+					This <b><i>free</i></b> leveling guide was printed from <a href="http://www.tekkub.net/tg">http://www.tekkub.net/tg</a> <br>
+					Download the TourGuide addon for free at <a href="http://tekkub.net/addons/TourGuide">http://tekkub.net/addons/TourGuide</a>
+				</p>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+
+		<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-3366004-1");
+			pageTracker._initData();
+			pageTracker._trackPageview();
+		</script>
+	</body>
+</html>

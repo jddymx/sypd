@@ -1,0 +1,39 @@
+---
+layout: post
+title: Good News Everyone!
+thumbnail: http://farm3.static.flickr.com/2528/3824596605_cd32a4e7d5_m.jpg
+thumbnail_alt: Good News Everyone!
+---
+
+This week we've got your usual patch fixes and two new addons, "Good News Everyone!":gne and "Gnomish Vendor Shrinker":gvs
+
+h2{clear:both}. Good News Everyone!
+
+!{float:right; clear:right}http://farm3.static.flickr.com/2528/3824596605_9bafcf2a4a_o.png(I've created a device that lets you capture images from your computter screen and post them on the internet!)! Yes, I really named an addon that.
+
+"Good News Everyone!":gne is a basic proc warning addon based off of "OhSnap":http://www.wowinterface.com/downloads/info14258-OhSnap.htm.  The idea of course is to alert you to abilities and procs where you would want to make a decision.  That means that every proc under the sun is NOT supported!  "Holy Concentration":http://www.wowhead.com/?search=Holy+Concentration is certainly a nice spell, but in the heat of battle I don't need to know when it's active... I won't be changing what spells I cast when it is up.
+
+For now, GNE! simply uses the "thrust in your face" effect to get your attention... but I may add a sound if demand is high enough.
+
+Oh, and if you think I missed any buffs or you find a "reactive" ability that doesn't trigger like it should, let me know on "GitHub":http://github.com/tekkub/GoodNewsEveryone/issues
+
+h2{clear:both}. Gnomish Vendor Shrinker
+
+!{float:right; clear:right}http://farm4.static.flickr.com/3430/3825359610_763bb1d668_o.png(Shrunken vendor)! The other new addon this week is "Gnomish Vendor Shrinker":gvs.  For some time I've wanted a better vendor frame, but motivation is such a bitch.  Yssaril was nice enough to allow me to go all OCD on AdvancedMerchantFrame... mix in a bit of "GAS":http://github.com/tekkub/gnomishauctionshrinker (crud, I need to release that too)... and there you are.
+
+Quick feature rundown: simple scrolling list instead of big buttons and "pages", highlights recipes you don't know to make them easy to find, one-click buying, alt-click full stack buying, and a search for those really big vendors that have way too much shit.
+
+h2{clear:both}. Patch fixes
+
+This week I've also got a few patch fixes going out:
+
+p((. "Quel'evel":http://www.wowinterface.com/downloads/fileinfo.php?id=8631 was partially broken by the new quest log, but as a bonus the fixed up code is even smaller.
+"EquipSetUpdater":http://www.wowinterface.com/downloads/info13578-EquipSetUpdater.html had it's button sat upon, so I changed it's behavior to override the "save" button instead of creating a new button in the already-crowded equipment manager frame.
+"teknicolor":http://www.wowinterface.com/downloads/info8523-teknicolor.html was mostly replaced by the new chat name coloring, but there were a few features that Blizzy missed, so it covers those now.
+"Panda":http://www.wowinterface.com/downloads/info8633-Panda.html got updated panels for the new jewelcrafting stuff (thanks to the users that dug up the itemIDs so I didn't have to).
+"Kennel":http://www.wowinterface.com/downloads/info4442-Kennel.html got some fixes to some not-patch-caused issues.
+"tekKompare":http://www.wowinterface.com/downloads/fileinfo.php?id=6837 wasn't broken by the patch, but some new goodness was added which it now takes advantage of.
+"Bimbo":http://www.wowinterface.com/downloads/info12801-Bimbo.html wasn't broken either, but I added some stuff for lower level toons, since I'm currently leveling a bearcow.
+
+[gvs]http://www.wowinterface.com/downloads/info14425-GnomishVendorShrinker.html
+[gne]http://www.wowinterface.com/downloads/info14426-GoodNewsEveryone.html

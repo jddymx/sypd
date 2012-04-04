@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title> Chrome doesn't disable! </title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+    <style>
+      p { max-width: 512px; }
+      pre {
+        background: #eee;
+        margin-bottom: 20px;
+        padding: 5px;
+        max-width: 700px;
+      }
+      button { height: 40px; }
+      span   {
+        background: #fcc;
+        padding: 2px;
+      }
+      ul li { list-style-type: none; }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      It seems that even when you set the "disabled" attribute on a button that
+      has a span in it, Chrome still calls the "click" bindings if you click the
+      span, even though it shouldn't. To demonstrate this, I'm using the
+      following jQuery code on this page.  The span in the button is highlighted
+      in red.
+    </p>
+    <pre>$(function() {
+  $('button').live('click', function(){
+    var el = $(this),
+        list = $("ul")
+
+    var hasSpan = (el.find('span').length > 0) && "with span" || "without span"
+    var wasDisabled = el.attr('disabled') || "not set"
+    list.append(
+      $("&lt;li>").text("Button " + hasSpan + " clicked, disabled attr was " + wasDisabled)
+    )
+
+    el.attr('disabled', 'disabled')
+
+    return true
+  })
+});</pre>
+    <button>Click me, I don't have a span.</button>
+    <button><span>Click me, I have a span.</span></button>
+    <ul></ul>
+    <script type="text/javascript">
+      $(function() {
+        $('button').live('click', function(){
+          var el = $(this),
+              list = $("ul")
+
+          var hasSpan = (el.find('span').length > 0) && "with span" || "without span"
+          var wasDisabled = el.attr('disabled') || "not set"
+          list.append(
+            $("<li>").text("Button " + hasSpan + " clicked, disabled attr was " + wasDisabled)
+          )
+
+          el.attr('disabled', 'disabled')
+
+          return true
+        })
+      });
+    </script>
+  </body>
+</html>

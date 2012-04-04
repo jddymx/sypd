@@ -1,0 +1,26 @@
+---
+layout: post
+title: The TourGuide-Zygor deal
+thumbnail: http://img.skitch.com/20100217-c9wmgre3w6s5hrg3jbdk1sm5w7.jpg
+thumbnail_alt: Zygor Guides
+---
+
+!{float:right; clear:right; max-width:250px}http://img.skitch.com/20100217-c9wmgre3w6s5hrg3jbdk1sm5w7.jpg(I've created a device that lets you capture images from your computter screen and post them on the internet!)!
+
+TourGuide has teamed up with "Zygor guides":http://www.zygorguides.com/.  Don't panic!  (Fine, you can panic, just a little)
+
+h2{clear:both}. WTF Chuck?  You sold out!
+
+Well, I guess you could say that... but let me explain myself!
+
+Nearly three years ago I set out to create a simple, streamlined in-game leveling guide addon.  The only guides available at the time (which shall go unnamed) were PDF-based and, in my crappy opinion, of questionable quality.  Something I would have never paid for at least.  My primary goal was to create a core addon with a simple data format that I could license to those paid guide creators.  I never reached a deal with those paid guide guys, being the stubborn ass that I am I wasn't willing to "dumb down" my guide system for their users.  So I set out to create my own guide data instead.
+
+With the core in place, I used those same guides as a starting point, improving on their quest circuits and adding notes and coords where necessary.  The idea was to give the user a streamlined sequence, not to hold their hand and play hte game for them.  Those guides were good, but far from perfect... especially the horde guides.
+
+At this point the next expansion was due out soon and TourGuide faced one tiny problem: I am a horribly slow leveler (ironically).  With this in mind I created a passive "recorder" addon that tracked what the player did, at what coords, and what items he used.  Many users ran this addon and submitted their logs (thanks guys!), From which the current Wrath guides were created.
+
+Up to this point, the only money I had made were a few hundred dollars in donations.  Nothing to scoff at, but also not something that would help me pay my bills.  Don't get me wrong, I fully understood that my software was free, it wasn't my day job.
+
+This is when Zygor approached me about buying TourGuide.  My initial reaction was "hell no, never"... but with a little urging from my bitchier half I remembered that my initial goal with TG was to create something I could license.  So I contacted Zygor back and we struck a deal.  That deal is thus: I have licensed all rights relating to TourGuide, as is, to Zygor.  They are free to distribute it however they wish, at their request I have taken down my free versions.  If the deal ends in the future, rights will return to me and I can do what I want with the addon.
+
+It's been a great ride so far, and it's not over yet.  Thanks to all my users out there!
